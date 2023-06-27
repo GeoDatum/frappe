@@ -201,11 +201,11 @@ def insert_single_event(frequency: str, event: str, cron_format: str = None):
 		savepoint = "scheduled_job_type_creation"
 		try:
 			frappe.db.savepoint(savepoint)
-			doc.insert()
+			doc.insert(ignore_if_duplicate=True)
 		except frappe.DuplicateEntryError:
 			frappe.db.rollback(save_point=savepoint)
 			doc.delete()
-			doc.insert()
+			doc.insert(ignore_if_duplicate=True)
 
 
 def clear_events(all_events: list):
