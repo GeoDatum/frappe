@@ -46,7 +46,9 @@ class TestPerformance(FrappeTestCase):
 		self.reset_request_specific_caches()
 
 	def test_meta_caching(self):
+		frappe.clear_cache()
 		frappe.get_meta("User")
+		frappe.clear_cache(doctype="ToDo")
 
 		with self.assertQueryCount(0):
 			frappe.get_meta("User")
@@ -131,10 +133,14 @@ class TestPerformance(FrappeTestCase):
 			f"Possible performance regression in basic /api/Resource list  requests",
 		)
 
-	@unittest.skip("Not implemented")
 	def test_homepage_resolver(self):
 		paths = ["/", "/app"]
 		for path in paths:
 			PathResolver(path).resolve()
 			with self.assertQueryCount(1):
 				PathResolver(path).resolve()
+
+	def test_consistent_build_version(self):
+		from frappe.utils import get_build_version
+
+		self.assertEqual(get_build_version(), get_build_version())
