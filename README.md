@@ -1,8 +1,5 @@
 <div align="center">
-	<h1>    GeoDatum Framework
-		<br>
-
-	</h1>
+	<h1>    GeoDatum Framework </h1>
 	<h3>
 		a web framework with <a href="https://www.youtube.com/watch?v=LOjk3m0wTwg">"batteries included"</a>
 	</h3>
