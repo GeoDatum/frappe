@@ -6,7 +6,7 @@
 		</a>
 	</h1>
 	<h3>
-		a web framework with <a href="https://www.youtube.com/watch?v=LOjk3m0wTwg">"batteries included"</a>
+		GeoGov a web framework with <a href="https://www.youtube.com/watch?v=LOjk3m0wTwg">"batteries included"</a>
 	</h3>
 	<h5>
 		it's pronounced - <em>fra-pay</em>
