@@ -1,16 +1,14 @@
 <div align="center">
 	<h1>
 		<br>
-		<a href="https://frappeframework.com">
-			<img src=".github/frappe-framework-logo.svg" height="50">
+		<a href="https://portal.agropocket.ng">
+			<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/130916087/277408492-b38ac569-13a6-4948-a4d1-b1efe1a0cedd.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231023%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231023T163406Z&X-Amz-Expires=300&X-Amz-Signature=25885ea4a65ce42e588498fdb7409609cf4a595c44d868791bcd65e0607c03d3&X-Amz-SignedHeaders=host&actor_id=130916087&key_id=0&repo_id=708903190" height="200">
 		</a>
 	</h1>
 	<h3>
-		GeoGov a web framework with <a href="https://www.youtube.com/watch?v=LOjk3m0wTwg">"batteries included"</a>
+		AgroPocket a web framework with batteries included"</a>
 	</h3>
-	<h5>
-		it's pronounced - <em>fra-pay</em>
-	</h5>
+
 </div>
 
 <div align="center">
@@ -35,43 +33,8 @@
 </div>
 
 
-Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for [ERPNext](https://erpnext.com).
+Full-stack web application framework that uses Python and MariaDB on the server side and a tightly integrated client side library. Built for agriculture
 
-<div align="center" style="max-height: 40px;">
-	<a href="https://frappecloud.com/frappe/signup">
-		<img src=".github/try-on-f-cloud-button.svg" height="40">
-	</a>
-	<a href="https://labs.play-with-docker.com/?stack=https://raw.githubusercontent.com/gavindsouza/install-scripts/main/frappe/pwd.yml">
-		<img src="https://raw.githubusercontent.com/play-with-docker/stacks/master/assets/images/button.png" alt="Try in PWD" height="37"/>
-	</a>
-</div>
-
-> Login for the PWD site: (username: Administrator, password: admin)
-
-## Table of Contents
-* [Installation](#installation)
-* [Contributing](#contributing)
-* [Resources](#resources)
-* [License](#license)
-
-## Installation
-
-### Production
-* [Managed Hosting on Frappe Cloud](https://frappecloud.com/)
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
-* [Manual install using Docker images](https://github.com/frappe/frappe_docker)
-
-### Development
-* [Easy install script using Docker images](https://github.com/frappe/bench/tree/develop#easy-install-script)
-* [Development installation on bare metal](https://frappeframework.com/docs/user/en/installation)
-
-
-## Contributing
-
-1. [Code of Conduct](CODE_OF_CONDUCT.md)
-1. [Contribution Guidelines](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-1. [Security Policy](SECURITY.md)
-1. [Translations](https://translate.erpnext.com)
 
 ## Resources
 
